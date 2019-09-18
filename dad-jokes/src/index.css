@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.reg-login {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #272727;
+  color: black;
+  padding: 3px 15px;
+  margin-bottom: 30px;
+}
+
+.sign-in {
+  color: black;
+  padding: 3px 15px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.sign-in.reg {
+  color: white;
+  background-color: #009999;
+}
+
+
+
+.top-nav-tab {
+  margin: 10px 8px;
+  text-decoration: none;
+}
+
+.top-nav-tab.main {
+  color: black;
+  padding: 3px 15px;
+  border: 2px solid #272727;
+  border-radius: 20px;
+  margin-top: 200px;
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    margin-bottom: 30px;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  flex-direction: row;
+  width: 100%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column;
+    flex-wrap: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards-container {
+    width: 1200px;
+  }
+}
+
+.cards-container .card {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 5px 10px lightgray;
+  height: auto;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+@media (max-width: 800px) {
+  .cards-container .card {
+    width: 30%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-container .card {
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+
+.input-form {
+  background-color: #009999;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding: 30px 0;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .input-form {
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+
+h2 {
+  color: black;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.input-box {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.category-select {
+  display: flex;
+  margin: 10px 0;
+}
+
+.category-label {
+  color: white;
+  padding-right: 15px;
+}
+
+.form-check {
+  margin: 15px 0;
+}
+
+.card button {
+  text-decoration: none;
+  background-color: lightgray;
+  width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.card button:hover{
+  background-color: white;
+  border: 2px solid lightgray;
+}
+
+.card.seen {
+  background-color: #272727;
+}
+
+.img-container h2{
+  margin: 10px 10px 30px 10px;
+}
+
+
+@media (max-width: 800px) {
+  img {
+    width: 70%;
+  }
+}
+
+.save-joke-btn {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: mediumaquamarine;
+  padding: 5px 0;
+  border-radius: 20px;
+  margin: 10px 0;
+  border: 0;
+  width: 200px;
+  color: #272727;
+}
+
+.save-joke-btn:hover{
+  background-color: white;
+  border: 2px solid mediumaquamarine;
+}
+
+
+.form-check label {
+  color: white;
+  margin-right: 7px;
+}
+
+.login {
+  color: white;
+  background-color: #009999;
+  width: 30%;
+  margin: 60px auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .login {
+    width: 70%;
+  }
+}
+
+.login h1 {
+  font-size: 30px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.login form input {
+  width: 50%;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.login-btn {
+  color: #272727;
+  font-weight: bold;
+  background-color: mediumaquamarine;
+  padding: 7px 0;
+  border-radius: 20px;
+  margin: 10px auto;
+  border: 0;
+  width: 200px;
+}
